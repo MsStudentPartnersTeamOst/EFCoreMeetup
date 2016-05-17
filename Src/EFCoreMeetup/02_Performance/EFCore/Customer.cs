@@ -1,18 +1,18 @@
 ﻿using System.Diagnostics;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Data.Entity.Spatial;
 
-namespace _02_Performance.EF6
+
+namespace _02_Performance.EFCore
 {
-    using System;
-    using System.Collections.Generic;
-    using System.ComponentModel.DataAnnotations;
-    using System.ComponentModel.DataAnnotations.Schema;
-    using System.Data.Entity.Spatial;
-
     [Table("Customer", Schema = "Sales")]
     [DebuggerDisplay("{CustomerID} - {AccountNumber}")]
     public class Customer
     {
-        [Key]
+        //[Key]
         public int CustomerID { get; set; }
 
         public int? PersonID { get; set; }
