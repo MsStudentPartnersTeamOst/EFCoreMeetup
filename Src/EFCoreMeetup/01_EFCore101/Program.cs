@@ -28,6 +28,7 @@ namespace _01_EFCore101
                     Console.WriteLine($" - {blog.Name} {blog.Url}");
                 }
 
+                Console.WriteLine("\r\nDone.");
                 Console.ReadLine();
             }
         }

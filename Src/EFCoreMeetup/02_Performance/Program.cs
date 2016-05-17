@@ -30,12 +30,13 @@ namespace _02_Performance
                 }
             );
 
+            Console.WriteLine("\r\nDone.");
             Console.ReadLine();
         }
 
         private static void ResetAndPrepare()
         {
-            Console.Write("Start warumup...");
+            Console.Write("Start warmup...");
             using (var db = new AdventureWorksDbContext())
             {
                 var customers = db.Customers.FirstOrDefault();

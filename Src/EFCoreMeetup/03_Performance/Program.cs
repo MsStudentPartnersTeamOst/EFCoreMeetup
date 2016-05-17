@@ -45,12 +45,13 @@ namespace _03_Performance
                 }
             );
 
+            Console.WriteLine("\r\nDone.");
             Console.ReadLine();
         }
 
         private static void ResetAndPrepare()
         {
-            Console.Write("Start warumup...");
+            Console.Write("Start warmup...");
             using (var db = new EF6.AdventureWorksDbContext())
             {
                 var customers = db.Customers.FirstOrDefault();
