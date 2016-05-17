@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_EFCore101", "01_EFCore101\01_EFCore101.csproj", "{253FEEB0-13E7-4FBC-8648-28F35A575CBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Performance", "02_Performance\02_Performance.csproj", "{FE5AE19C-81CA-4B10-8343-551AC53AEC63}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{253FEEB0-13E7-4FBC-8648-28F35A575CBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{253FEEB0-13E7-4FBC-8648-28F35A575CBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{253FEEB0-13E7-4FBC-8648-28F35A575CBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{253FEEB0-13E7-4FBC-8648-28F35A575CBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE5AE19C-81CA-4B10-8343-551AC53AEC63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE5AE19C-81CA-4B10-8343-551AC53AEC63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE5AE19C-81CA-4B10-8343-551AC53AEC63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE5AE19C-81CA-4B10-8343-551AC53AEC63}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
