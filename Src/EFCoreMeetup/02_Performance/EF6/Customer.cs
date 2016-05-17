@@ -1,13 +1,10 @@
-﻿using System.Diagnostics;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Diagnostics;
 
 namespace _02_Performance.EF6
 {
-    using System;
-    using System.Collections.Generic;
-    using System.ComponentModel.DataAnnotations;
-    using System.ComponentModel.DataAnnotations.Schema;
-    using System.Data.Entity.Spatial;
-
     [Table("Customer", Schema = "Sales")]
     [DebuggerDisplay("{CustomerID} - {AccountNumber}")]
     public class Customer

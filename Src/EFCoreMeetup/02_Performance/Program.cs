@@ -1,11 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Diagnostics;
 using System.Globalization;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore.Storage;
+using _02_Performance.EF6;
 
 namespace _02_Performance
 {
@@ -18,7 +15,7 @@ namespace _02_Performance
             RunTest(
                 ef6Test: () =>
                 {
-                    using (var db = new EF6.AdventureWorksDbContext())
+                    using (var db = new AdventureWorksDbContext())
                     {
                         var customers = db.Customers.ToList();
                     }
@@ -39,7 +36,7 @@ namespace _02_Performance
         private static void ResetAndPrepare()
         {
             Console.Write("Start warumup...");
-            using (var db = new EF6.AdventureWorksDbContext())
+            using (var db = new AdventureWorksDbContext())
             {
                 var customers = db.Customers.FirstOrDefault();
             }
